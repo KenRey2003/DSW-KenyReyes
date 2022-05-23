@@ -1,0 +1,33 @@
+[
+    {
+        "categoria": "Aprendizaje1",
+        "pregunta": "¿Para que nos sirve SEO?",
+        "respuesta": "Es el mejor metodo de atraer el trafico en la web",
+        "incorrecta1": "Porque es un metodo de trabajo",
+        "incorrecta2": "Tiene variables",
+        "incorrecta3": "No sirve para nada",
+        "imagen": "https://www.itconsultors.com/images/blog/SEO-Ottawa.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Aprendizaje1",
+        "pregunta": "¿Cual es la parte mas dificil de usar SEO?",
+        "respuesta": "Es de mucho cuidado, tiempo y analisis para consturir enlaces duarderos, especialemtne a escala en el espacio B2B",
+        "incorrecta1": "Que es muy sencillo de usar",
+        "incorrecta2": "Lo tipos de variables son importantes",
+        "incorrecta3": "Obtener cuadrados",
+        "imagen": "https://www.pasionseo.com/wp-content/uploads/2014/05/seo-dificil.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Aprendizaje1",
+        "pregunta": "¿Que es el trafico SEO?",
+        "respuesta": "Este proviene del trafico de una pagina web, la cual proviene de los buscadores de internet (google, bing, yahoo, etc...)",
+        "incorrecta1": "Dios es el camino",
+        "incorrecta2": "Muchos autos en una autopista",
+        "incorrecta3": "Indica el trafico que tiene una videojuego de pc local",
+        "imagen": "https://www.snsmarketing.es/blog/wp-content/uploads/2019/07/Trafico-a-la-web.jpg",
+        "objectFit": "cover"
+    }
+
+]

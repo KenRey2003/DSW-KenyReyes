@@ -21,6 +21,24 @@ nav{
 nav a{ 
     color: white;
     padding: 14px 20px;
-text-decoration: none;
+    text-decoration: none;
+}
+
+.row{
+    display: felx;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 30px;
+    background-color: beige;
+    padding:20px;
+    
+}
+
+section{
+    flex:70%;
+    background-color: khaki;
+    padding: 20px;
 }
  
