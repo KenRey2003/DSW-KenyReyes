@@ -4,7 +4,7 @@ let reiniciar_puntos_al_reiniciar_el_juego = true;
 
 window.onload = function () {
   base_preguntas = readText("base_preguntas.json");
-  interprete_bp = JSON.parse(base_preguntas1);
+  interprete_bp = JSON.parse(base_preguntas);
   escogerPreguntaAleatoria();
 };
 

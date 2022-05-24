@@ -1,99 +1,70 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
     <title>Juego de preguntas</title>
- 
+    <link rel="stylesheet" href="estilo.css">
   </head>
   
   <body>
-    <style>
-      {
-        transition: all 0.3s;
-      }
-  
-      body {
-        background: cadetblue;
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        font-family: calibri;
-        font-size: 120%;
-      }
-  
-      .contenedor {
-        width: 98vw;
-        height: 97vh;
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-  
-      .encabezado {
-        position: relative;
-        background: white;
-        min-width: 300px;
-        width: 70%;
-        max-width: 600px;
-        padding: 10px;
-      }
-  
-      .categoria {
-        opacity: 0.3;
-        text-align: left;
-      }
-  
-      .pregunta {
-        padding: 10px;
-      }
-  
-      .imagen {
-        object-fit: cover;
-        height: 0px;
-        width: 0px;
-      }
-  
-      .btn {
-        background: white;
-        width: 60%;
-        max-width: 550px;
-        padding: 10px;
-        margin: 5px;
-        cursor: pointer;
-      }
-  
-      .btn:hover {
-        transform: scale(1.05);
-      }
+
+    <header>
+      <h1>INTRODUCCION A SO </h1>
+      <p>
+      Una media query es una declaración css que es utilizada en un parámetro para utilizar en base a las dimensiones del dispositivo dónde se va a ver visualizada la pagina el SEO que es una optimización para buscadores el cual emplea un conjunto de acciones y técnicas para mejorar la visibilización y mejorar el posicionamento en los buscadores en un sitio web este se basa en crear contenidos de alta calidad y en el SEM landing Pagés está para conseguir un buen impacto con pocos elementos y cuentas con anuncios con un número pequeño de caracteres
+      <br> <br>  A continuacion encontraras un pequeño quiz el cual pondra a prueba la introucciona antes mencionada, para aprobarlo deberas tener 3 aciertos: </br> </br>
+      </p>
+
+      <h1>QUIZ</h1>
       
-      .numero{
-        position: absolute;
-        opacity:0.3;
-        top: 10px;
-        right: 10px;
-      }
-      
-      .puntaje{
-        padding:10px;
-        color:white;
-      }
-    </style>
-  
-    <div class="contenedor">
-      <div class="puntaje" id="puntaje"></div>
-      <div class="encabezado">
-        <div class="categoria" id="categoria">
-        </div>
-        <div class="numero" id="numero"></div>
-        <div class="pregunta" id="pregunta">
-        </div>
-        <img src="#" class="imagen" id="imagen">
-      </div>
-      <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
-      <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
-      <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
-      <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
-      
-      <script src="index.js"></script>
+    </header>
+
+    <div class='container'>
+      <section id = "p0">
+          <h3>1- ¿Para que nos sirve SEO?</h3>
+          <label>
+              <input type="radio" value ="1" name="p0" onclick="respuesta(0,this)"> Es el mejor metodo de atraer el trafico en la web
+          </label>
+         <label>
+                <input type="radio" value ="2" name="p0" onclick="respuesta(0,this)"> Porque es un metodo de trabajo
+          </label>
+          <label>
+            <input type="radio" value ="3" name="p0" onclick="respuesta(0,this)"> No sirve para nada
+          </label>
+      </section>
+      <section id = "p1">
+        <h3>2- ¿Cual es la parte mas dificil de usar SEO?</h3>
+        <label>
+            <input type="radio" value ="1" name="p1" onclick="respuesta(1,this)"> Que es muy sencillo de usar
+        </label>
+       <label>
+              <input type="radio" value ="2" name="p1" onclick="respuesta(1,this)"> Es de mucho cuidado, tiempo y analisis para consturir enlaces duarderos, especialemtne a escala en el espacio B2B
+        </label>
+        <label>
+          <input type="radio" value ="3" name="p1" onclick="respuesta(1,this)"> Obtener cuadrados
+        </label>
+    </section>
+    <section id = "p2">
+      <h3>3- ¿Que es el trafico SEO?</h3>
+      <label>
+          <input type="radio" value ="1" name="p2" onclick="respuesta(2,this)"> Muchos autos en una autopista
+      </label>
+     <label>
+            <input type="radio" value ="2" name="p2" onclick="respuesta(2,this)"> Indica el trafico que tiene una videojuego de pc local
+      </label>
+      <label>
+        <input type="radio" value ="3" name="p2" onclick="respuesta(2,this)"> Este proviene del trafico de una pagina web, la cual proviene de los buscadores de internet (google, bing, yahoo, etc...)
+      </label>
+  </section>
+
+  <button onclick="corregir()"> CORREGIR </button>
+  <h2>Cantidad acertadas: <span id="resultado"></span></h2>
+  <a href="index3.html">Pagina principal
+  </a>
     </div>
+  <script src="script.js"> </script>
+  </body>
+  </html>
+
   
-  </body></html>

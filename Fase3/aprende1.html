@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <title>Juego de preguntas</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  
+  <body>
+
+    <header>
+      <h1> RELACION ENTRE CSS Y HTML </h1>
+      <p>
+        Originalmente, las páginas HTML sólo incluían información sobre sus contenidos de texto e imagenes pero con el paso del tiempo se hizo necesario preocuparse mas por el aspecto de sus contenidos: tipos de letra, colores y márgenes. Por su lado CSS es el mecanismo que permite separar los contenidos definidos mediante XHTML y el aspecto que deben presentar esos contenidos:
+      <br> <br>  A continuacion encontraras un pequeño quiz el cual pondra a prueba la informacion antes expuesta, para aprobarlo deberas acertar en 3 preguntas: </br> </br>
+      </p>
+      <img src=" https://uniwebsidad.com/static/libros/imagenes/xhtml/separacion_contenidos_presentacion.gif" height=200px width=300px> 
+      <h1>QUIZ</h1>
+      
+    </header>
+
+    <div class='container'>
+      <section id = "p3">
+          <h3>1- ¿Para que fue creado el css?</h3>
+          <label>
+              <input type="radio" value ="1" name="p0" onclick="respuesta(0,this)"> 
+              Fue creado con especificaciones amplias y muchos beneficios, ya que con este es posible separar la presentacion y contenido de ña pagina web, se encunetra en casi todas las paginas web
+          </label>
+         <label>
+                <input type="radio" value ="2" name="p0" onclick="respuesta(0,this)"> Porque es un metodo util para creacion de videojuegos
+          </label>
+          <label>
+            <input type="radio" value ="3" name="p0" onclick="respuesta(0,this)"> No se creo con ningun objetivo
+          </label>
+      </section>
+      <section id = "p4">
+        <h3>2- ¿Como se vincula el CSS y HTML?</h3>
+        <label>
+            <input type="radio" value ="1" name="p1" onclick="respuesta(1,this)"> Que es muy sencillo de usar y se unifican
+        </label>
+       <label>
+              <input type="radio" value ="2" name="p1" onclick="respuesta(1,this)"> Tiene mucho cuidado al momento de crear los labels
+        </label>
+        <label>
+          <input type="radio" value ="3" name="p1" onclick="respuesta(1,this)"> El CSS define el estilo de la pagina y el HTML constituye la base del sitio web, a pesar que en HTMl es posible lograrlo ocon CSS hace que destaque.
+        </label>
+    </section>
+    <section id = "p5">
+      <h3>3- ¿Que ventajas tenemos al vincular el CSS?</h3>
+      <label>
+          <input type="radio" value ="1" name="p2" onclick="respuesta(2,this)"> Podemos modificar y hacer cambios, permite que las paginas se descarguen mas rapido su ejecucion y permite mejorar las tecinas de SEO.
+      </label>
+     <label>
+            <input type="radio" value ="2" name="p2" onclick="respuesta(2,this)"> Indica el rendiemiento de un videojuego de pc local
+      </label>
+      <label>
+        <input type="radio" value ="3" name="p2" onclick="respuesta(2,this)"> Necesitamos un pastel para la fiesta
+      </label>
+  </section>
+
+  <button onclick="corregir()"> CORREGIR </button>
+  <h2>Cantidad acertadas: <span id="resultado"></span></h2>
+  <a href="index3.html">Pagina principal
+</a>
+  
+    </div>
+  <script src="script.js"> </script>
+  </body>
+  </html>
