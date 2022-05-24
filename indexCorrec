@@ -1,0 +1,50 @@
+<html lang="es">
+<head>
+        <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+     <header>
+            <h1>SINTAXIS Y SELECTORES</h1>
+     </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Noticias</a>
+        <a href="aprende.html">Aprendizaje 1 
+        </a>
+        <a href="aprende1.html">Aprendizaje 2 
+        </a>
+    </nav>
+
+    <div class="row">
+        <Sintaxis>
+            <h2>Sintaxis y Selectores Css</h2>
+            <p>Seleccionar todos los elementos de las páginas donde la etiqueta HTML coincide con el valor del selector seleccionando la etiqueta HTML (sin las características<y>) o cuando se quiera dar el mismo estilo a dos elementos se puede encadenar, agrupar las reglas de css con un selector múltiple separado con una coma agrupar las propiedades con una única regla css y definir propiedades comunes(color y tipo de letra)</p>
+                <img src="https://desarrolloweb.com/media/144/CSS-selectores.jpg" height=200px width=300px> 
+               
+            </Sintaxis>
+        <introduccion>
+            <h2>Introduccion</h2>
+            <p>Los selectores Css se emplean para elegir los elementos de HTML y darle estilo a la web hay muchos selectores CSS que sirven para seleccionar los elementos adecuados ellos se dividen en varios categorías las cuales nos indican que elementos usar en ciertas características de la página para organizarla de una manera correcta</p>
+            <img src="https://pinguinodigital.com/wp-content/uploads/2020/07/estilos-de-p%C3%A1ginas-web1.png" height=200px width=300px> 
+        </introduccion>
+
+        <aprendizaje>
+
+        </aprendizaje>
+
+        <recursos>
+            <p>Elaborar recursos educativos digitales para dinamizar las estrategias de aprendizaje 
+               
+                
+                
+            </p>
+        </recursos>
+        <aprendizaje>
+            
+        </aprendizaje>
+    <footer>
+        <h2></h2>
+    </footer>
+
+
+</body>
